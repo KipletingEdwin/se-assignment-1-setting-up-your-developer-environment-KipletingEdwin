@@ -33,7 +33,7 @@ This assignment aims to familiarize you with the tools and configurations necess
 
    And attached is the response 
    
-   ![alt text](<Screenshot from 2024-06-18 12-07-16.png>)
+   ![alt text](<Screenshot from 2024-06-18 12-17-01.png>)
 
    Here is the command that bI use to check if my github is configured properly
 
