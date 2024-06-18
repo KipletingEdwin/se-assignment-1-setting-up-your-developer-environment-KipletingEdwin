@@ -27,6 +27,15 @@ This assignment aims to familiarize you with the tools and configurations necess
 3. Set Up Version Control System:
    Install Git and configure it on your local machine. Create a GitHub account for hosting your repositories. Initialize a Git repository for your project and make your first commit. https://github.com
 
+   I have git installed and here is the code I used to check:
+
+   git --version
+
+   And attached is the response 
+   
+   ![alt text](<Screenshot from 2024-06-18 12-07-16.png>)
+
+
 4. Install Necessary Programming Languages and Runtimes:
   Instal Python from http://wwww.python.org programming language required for your project and install their respective compilers, interpreters, or runtimes. Ensure you have the necessary tools to build and execute your code.
 
