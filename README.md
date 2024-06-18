@@ -13,57 +13,97 @@ This assignment aims to familiarize you with the tools and configurations necess
 1. Select Your Operating System (OS):
    Choose an operating system that best suits your preferences and project requirements. Download and Install Windows 11. https://www.microsoft.com/software-download/windows11
 
-   I have Ubuntu Operating System installed on my machine.
+          I have Ubuntu Operating System installed on my machine.
 
 2. Install a Text Editor or Integrated Development Environment (IDE):
    Select and install a text editor or IDE suitable for your programming languages and workflow. Download and Install Visual Studio Code. https://code.visualstudio.com/Download
 
-   I have Visual Studio Code installed on my machine and here is the code I used to check and the response
+         I have Visual Studio Code installed on my machine and here is the code I used to check and the response
 
-   code --version
+         code --version
 
-   ![alt text](<Screenshot from 2024-06-17 21-25-23.png>)
+         ![alt text](<Screenshot from 2024-06-17 21-25-23.png>)
 
 3. Set Up Version Control System:
    Install Git and configure it on your local machine. Create a GitHub account for hosting your repositories. Initialize a Git repository for your project and make your first commit. https://github.com
 
-   I have git installed and here is the code I used to check:
+         I have git installed and here is the code I used to check:
 
-   git --version
+         git --version
 
-   And attached is the response 
-   
-   ![alt text](<Screenshot from 2024-06-18 12-17-01.png>)
+         And attached is the response 
+         
+         ![alt text](<Screenshot from 2024-06-18 12-17-01.png>)
 
-   Here is the command that bI use to check if my github is configured properly
+         Here is the command that bI use to check if my github is configured properly
 
-   Checking Git Username: git config --global user.name
-   And here is the response
+         Checking Git Username: git config --global user.name
+         And here is the response
 
-   ![alt text](<Screenshot from 2024-06-18 12-13-50.png>)
+         ![alt text](<Screenshot from 2024-06-18 12-13-50.png>)
 
-   Checking Git Email: git config --global user.email
+         Checking Git Email: git config --global user.email
 
-   And here is the response
+         And here is the response
 
-   ![alt text](<Screenshot from 2024-06-18 12-15-06.png>)
-
-
-
-
-   git config --global user.name
-   git config --global user.email
-
+         ![alt text](<Screenshot from 2024-06-18 12-15-06.png>)
 
 
 4. Install Necessary Programming Languages and Runtimes:
   Instal Python from http://wwww.python.org programming language required for your project and install their respective compilers, interpreters, or runtimes. Ensure you have the necessary tools to build and execute your code.
 
+         Making sure that I have the latest package list by running this command:
+
+               sudo apt update
+
+         ![alt text](<Screenshot from 2024-06-18 12-55-17.png>)
+
+         Making sure that I the latest version and the necessary tools by running 
+
+               sudo apt install python3
+               sudo apt install python3-pip
+
+         Lastly verify the installation by checking the Python version:
+
+               python3 --version
+
+         And here is the screenshot
+
+         ![alt text](<Screenshot from 2024-06-18 13-01-06.png>)
+ 
+
 5. Install Package Managers:
    If applicable, install package managers like pip (Python).
 
+         (a)I install package manager(pip) by running the code :
+
+         sudo apt install python3-pip
+
+         (b)Check if pip is installed correctly by running the code:
+
+         pip3 --version
+         And here is the screenshot
+
+         ![alt text](<Screenshot from 2024-06-18 13-03-09.png>)
+
 6. Configure a Database (MySQL):
    Download and install MySQL database. https://dev.mysql.com/downloads/windows/installer/5.7.html
+
+         (a)First I have to update my package list by running the command
+
+         sudo apt update
+         (b) Install MySQL server using the package manager by running the command
+
+         sudo apt install mysql-server
+
+         Run the security script to enhance the security of your MySQL server through this command
+
+         sudo mysql_secure_installation
+
+         And here is the screenshot of the security script
+
+         ![alt text](<Screenshot from 2024-06-18 14-15-12.png>)
+
 
 7. Set Up Development Environments and Virtualization (Optional):
    Consider using virtualization tools like Docker or virtual machines to isolate project dependencies and ensure consistent environments across different machines.
@@ -71,8 +111,60 @@ This assignment aims to familiarize you with the tools and configurations necess
 8. Explore Extensions and Plugins:
    Explore available extensions, plugins, and add-ons for your chosen text editor or IDE to enhance functionality, such as syntax highlighting, linting, code formatting, and version control integration.
 
+   Some of the Extensions I have been able to install include :
+
+         Python
+
+
 9. Document Your Setup:
     Create a comprehensive document outlining the steps you've taken to set up your developer environment. Include any configurations, customizations, or troubleshooting steps encountered during the process. 
+
+      ## Install Visual Studio Code (VS Code)
+         Visual Studio Code is a versatile IDE suitable for various programming languages.
+
+         Open Terminal (Ctrl+Alt+T) and run:
+
+         sudo snap install --classic code
+         This command installs VS Code using Snap package manager, ensuring easy updates and management.
+      ## Set Up Version Control System (Git)
+         Git is essential for version control and collaboration.
+
+         Install Git:
+
+         sudo apt update
+         sudo apt install git
+         Configure Git with your name and email:
+
+         git config --global user.name "Your Name"
+         git config --global user.email "you@example.com"
+         Create a GitHub account at GitHub.
+         Initialize a Git repository:
+
+         mkdir myproject
+         cd myproject
+         git init
+         touch README.md
+         git add README.md
+         git commit -m "Initial commit"
+       ##  Install Python and Set Up Virtual Environment
+       
+         To install Python 3 and pip:
+
+         sudo apt install python3 python3-pip
+         Optionally, set up a virtual environment:
+
+         sudo apt install python3-venv
+         python3 -m venv venv
+      
+       ## Install MySQL Database
+         MySQL is a popular relational database management system.
+
+         Install MySQL server:
+
+         sudo apt install mysql-server
+         During installation, set a root password for MySQL.
+
+
 
 #Deliverables:
 - Document detailing the setup process with step-by-step instructions and screenshots where necessary.
