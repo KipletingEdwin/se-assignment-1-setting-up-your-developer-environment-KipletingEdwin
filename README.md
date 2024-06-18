@@ -35,6 +35,26 @@ This assignment aims to familiarize you with the tools and configurations necess
    
    ![alt text](<Screenshot from 2024-06-18 12-07-16.png>)
 
+   Here is the command that bI use to check if my github is configured properly
+
+   Checking Git Username: git config --global user.name
+   And here is the response
+
+   ![alt text](<Screenshot from 2024-06-18 12-13-50.png>)
+
+   Checking Git Email: git config --global user.email
+
+   And here is the response
+
+   ![alt text](<Screenshot from 2024-06-18 12-15-06.png>)
+
+
+
+
+   git config --global user.name
+   git config --global user.email
+
+
 
 4. Install Necessary Programming Languages and Runtimes:
   Instal Python from http://wwww.python.org programming language required for your project and install their respective compilers, interpreters, or runtimes. Ensure you have the necessary tools to build and execute your code.
